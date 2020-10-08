@@ -1,0 +1,65 @@
+/*
+Theme Name: Console 2
+Text Domain: console
+Version: 0.1
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: A shell inspired theme
+Tags: blog, one-column
+Author: Maija Kekkonen
+Author URI: https://mkkekkonen.github.io/
+Theme URI: https://mkkekkonen.github.io/
+License: CC-BY-4.0
+License URI: https://creativecommons.org/licenses/by/4.0/
+*/
+
+body {
+  font-family: 'Inconsolata', monospace !important;
+}
+
+a {
+  color: #006956;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #006956;
+}
+
+h1.main-title {
+  padding-top: 3rem;
+}
+
+p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.post-categories {
+  display: inline;
+}
+
+ul.post-categories li {
+  display: inline;
+}
+
+.comment-form label {
+  min-width: 15em;
+}
+
+.footer-text {
+  display: block;
+  margin-bottom: 10rem;
+}
+
+.wp-block-image img {
+  height: auto;
+}
